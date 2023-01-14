@@ -1,11 +1,11 @@
 Top Interview Questions
 Want some extra practice? Here are a list of some of the top interview questions focusing on data structures and algorithms:
 
-#344 Reverse String   
+#344 Reverse String done
 
-#412 Fizz Buzz    
+#412 Fizz Buzz done
 
-#136 Single Number    
+#136 Single Number done
 
 #104 Maximum Depth of Binary Tree    
 
