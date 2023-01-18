@@ -29,16 +29,17 @@ var moveZeroes = function (nums) {
 
 testCode(moveZeroes, [0, 1, 0, 3, 12], [1, 3, 12, 0, 0], true);
 testCode(moveZeroes, [0, 0, 1], [1, 0, 0], true);
-testCode(moveZeroes, [1], [1], true);
+testCode(moveZeroes, [1], [3], true);
 
 function testCode(method, input, expected, inPlace) {
-  let result = method(input);
-  debugger;
-  let output = inPlace ? input : result;
-
-  if (output.toString() === expected.toString()) {
-    console.log("PASS - output=" + output);
-  } else {
-    console.log("FAIL - output=" + output + " expected=" + expected);
+    let result = method(input);
+    let output = inPlace ? input : result;
+  
+    if (output.toString() === expected.toString()) {
+      console.log("%c PASS - output=" + output,'color: green');
+  
+    } else {
+      console.log("%c FAIL - output=" + output + " expected=" + expected,'color: red');
+    }
   }
-}
+  
